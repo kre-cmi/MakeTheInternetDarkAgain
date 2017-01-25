@@ -205,6 +205,9 @@ a:visited {
     background: #1e1e1e;
     color: #ccd3d6;
 }
+.comboboxList li.active *, .comboboxList li:hover * {
+    color: #ccd3d6 !important;
+}
 .jt-menu li a, .comboboxList{
     background-color: #1e1e1e !important;
     color: #ccd3d6 !important;
