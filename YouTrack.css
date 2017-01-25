@@ -115,6 +115,9 @@ a:visited {
 .sidebar-toggler {
     border: none;
 }
+.sidebar-toggler:hover{
+    background: #333;
+}
 .ring-btn,
 .btn, .jt-button {
     color: #ccd3d6;
