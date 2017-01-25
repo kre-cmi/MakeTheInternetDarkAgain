@@ -216,3 +216,6 @@ a:visited {
     background-color: #333 !important;
     color: #ccd3d6 !important;
 }
+.tag-list_issues, .tag-list_edit {
+    background-color: #1e1e1e;
+}
