@@ -1,0 +1,34 @@
+body, .aui-page-panel  {
+    background: #1e1e1e;
+    color: #ccd3d6 !important;
+}
+.acs-side-bar, .ia-scrollable-section, .space-tools-section {
+	background: #333;
+    color: #ccd3d6 !important;
+}
+.expand-collapse-trigger{
+	filter: invert(100%);	
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgb(86, 86, 86);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255,0,0,0.4);
+}
+
