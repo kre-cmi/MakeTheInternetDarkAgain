@@ -105,6 +105,7 @@ a:visited {
 .issue-selected {
     background: #252525;
 }
+.vert-list-actions,
 .vert-list-item:hover{
     background: #333;
 }
