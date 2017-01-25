@@ -9,6 +9,10 @@ input {
     color: #ccd3d6 !important;
     background: #1D1E1F;
 }
+.attach-wrapper.add-comment__attachments.has-attachments{
+	background-color: #333;
+	color: #ccd3d6;
+}
 /* For the "inset" look only */
 html {
     overflow: auto;
@@ -57,10 +61,7 @@ body {
 .fsi-properties-container {
     background: #333;
 }
-.fsi-properties .fsi-property .attribute.disabled,
-.disabled * ,
-.jt-fieldset-pair.jt-fs-pair-left label,
-.jt-fieldset-pair.jt-fs-pair-right label {
+.fsi-properties .fsi-property .attribute.disabled, .disabled * , .jt-fieldset-pair.jt-fs-pair-left label, .jt-fieldset-pair.jt-fs-pair-right label {
     color: #ccd3d6 !important;
 }
 a:visited {
@@ -87,12 +88,10 @@ a:visited {
     background: #252525;
     color: #ccd3d6 !important;
 }
-.jt-panel-active div,
-.ring-tabs__btn__counter {
+.jt-panel-active div, .ring-tabs__btn__counter {
     color: #ccd3d6 !important;
 }
-.search-panel-input .jt-input,
-.selectProject input {
+.search-panel-input .jt-input, .selectProject input {
     background: #252525 !important;
     color: #ccd3d6 !important;
 }
@@ -102,14 +101,10 @@ a:visited {
 .jt-menu.li.a{
     color: #eeeeee;
 }
-.vert-list-item-counter,
-.vert-list-item-counter:before,
-.issues-wrapper,
-.issue-selected {
+.vert-list-item-counter, .vert-list-item-counter:before, .issues-wrapper, .issue-selected {
     background: #252525;
 }
-.vert-list-actions,
-.vert-list-item:hover{
+.vert-list-actions, .vert-list-item:hover{
     background: #333;
 }
 .issue{
@@ -118,35 +113,27 @@ a:visited {
 .issue-selected {
     border: 1px solid #6ba6e1;
 }
-.issues-wrapper,
-.sidebar-toggler {
+.issues-wrapper, .sidebar-toggler {
     border: none;
 }
 .sidebar-toggler:hover{
     background: #333;
 }
-.ring-btn,
-.btn, .jt-button {
+.ring-btn, .btn, .jt-button {
     color: #ccd3d6;
     box-shadow: none;
     background: #252525 none;
 }
-.ring-btn:hover,
-.ring-btn.ring-btn_hover {
+.ring-btn:hover, .ring-btn.ring-btn_hover {
     background: #252525 none;
 }
-.issues-nav-info,
-.ring-footer {
+.issues-nav-info, .ring-footer {
     color: #ccd3d6;
 }
-.combobox,
-.combobox input,
-.jt-input[type=text], .jt-input[type=password] {
+.combobox, .combobox input, .jt-input[type=text], .jt-input[type=password] {
     background: #252525;
 }
-.ring-input,
-.jt-input,
-.ring-query-assist__letter {
+.ring-input, .jt-input, .ring-query-assist__letter {
     background-color: #252525;
     color: #ccd3d6;
 }
@@ -154,19 +141,13 @@ a:visited {
     background: #252525;
     color: #ccd3d6;
 }
-.search-panel,
-.selectProject,
-.search-center .panel ,
-.search-panel__context-btn,
-.suggest {
+.search-panel, .selectProject, .search-center .panel , .search-panel__context-btn, .suggest {
     background: #252525;
     border-color: #ccd3d6 !important;
     -webkit-box-shadow: 0 1px 0 #ccd3d6;
     box-shadow: 0 1px 0 #ccd3d6;
 }
-.suggest ul .separator .description,
-.suggest div.comment,
-.toolbar-unpined {
+.suggest ul .separator .description, .suggest div.comment, .toolbar-unpined {
     background-color: #252525;
     color: #ccd3d6;
 }
@@ -174,8 +155,7 @@ a:visited {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-.ttrack-item-selected, .ttrack-item-selected:first-child,
-.history-item-title {
+.ttrack-item-selected, .ttrack-item-selected:first-child, .history-item-title {
     background: #252525;
 }
 .yt-vcs-changes__toolbar__items {
