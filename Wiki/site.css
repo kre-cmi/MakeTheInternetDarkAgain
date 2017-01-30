@@ -74,3 +74,6 @@ div.panel.pdl {
 .syntaxhighlighter.sh-confluence .string, .syntaxhighlighter.sh-confluence .string a {
     color: orange!important;
 }
+blockquote p span{
+    color: #868686!important;
+}
