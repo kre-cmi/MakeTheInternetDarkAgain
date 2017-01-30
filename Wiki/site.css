@@ -15,9 +15,6 @@ body, .aui-page-panel  {
     background: #333;
     color: #ccd3d6 !important;
 }
-.expand-collapse-trigger{
-    filter: invert(100%);
-}
 /* Let's get this party started */
 ::-webkit-scrollbar {
     width: 12px;
@@ -57,7 +54,18 @@ h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-cont
 #main #main-header.overlay-header,
 .ia-splitter-handle-highlight,
 .space-tools-section {
-    border-color: #333;
+    border-color: #1e1e1e;
+}
+#acs-nav-list-main .acs-nav-item-label, #acs-nav-list-quick .acs-nav-item-label, .acs-nav-sections p, .acs-side-bar h5 {
+    color: #ccd3d6;
+}
+a, a:visited, a:focus, a:hover, a:active, a.blogHeading,
+.acs-tree-item, .acs-side-bar a, .acs-side-bar td a,
+.wiki-content a, .wiki-content a:link, .wiki-content a:visited, .wiki-content a:focus, .wiki-content a:hover, .wiki-content a:active {
+    color: #8bc4ff;
+}
+.ia-fixed-sidebar div.plugin_pagetree ul.plugin_pagetree_children_list li .plugin_pagetree_children_content .plugin_pagetree_current a {
+    color: green;
 }
 div.panel.pdl {
     border-color: #868686;
@@ -85,9 +93,12 @@ table.confluenceTable th.confluenceTh, table.confluenceTable th.confluenceTh>p, 
 div.panelHeader.pdl,
 .confluence-information-macro-information {
     background: #333;
-    color: #868686;
+    color: #ccd3d6;
     border-color: #333;
 }
 div.panel.pdl {
     border-color: #333;
+}
+.expand-collapse-trigger {
+    background-color: #333;
 }
