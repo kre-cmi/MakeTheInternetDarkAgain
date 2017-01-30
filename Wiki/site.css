@@ -2,6 +2,10 @@ body, .aui-page-panel  {
     background: #1e1e1e;
     color: #ccd3d6 !important;
 }
+
+.confluenceTh, .confluenceTd {
+    border-color: #868686;
+}
 #footer-logo {
     background: #1e1e1e;
 }
@@ -55,4 +59,18 @@ h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-cont
 .ia-splitter-handle-highlight,
 .space-tools-section {
     border-color: #333;
+}
+div.panel.pdl {
+    border-color: #868686;
+}
+.code, .preformatted,
+.pdl .panelContent,
+.syntaxhighlighter.sh-confluence {
+    background-color: #1e1e1e !important;
+}
+.syntaxhighlighter.sh-confluence .plain, .syntaxhighlighter.sh-confluence .plain a {
+    color: #ccd3d6!important;
+}
+.syntaxhighlighter.sh-confluence .string, .syntaxhighlighter.sh-confluence .string a {
+    color: orange!important;
 }
