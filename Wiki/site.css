@@ -42,7 +42,7 @@ body, .aui-page-panel  {
 }
 
 #title-text a {
-    color: #868686;
+    color: #ccd3d6;
 }
 h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-content h4, .pagetitle, .steptitle, .substeptitle, .formtitle, table.confluenceTable td.confluenceTd.highlight, table.confluenceTable td.confluenceTd.highlight > p, table.confluenceTable th.confluenceTh, table.confluenceTable th.confluenceTh > p, .wiki-content .tablesorter-header-inner, table.admin th, .form-element-large, .form-element-small, #toolbar #format-dropdown .format-h1 a, #toolbar #format-dropdown .format-h2 a, #toolbar #format-dropdown .format-h3 a, #toolbar #format-dropdown .format-h4 a {
     color: #ccd3d6;
@@ -53,7 +53,7 @@ h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-cont
 }
 #breadcrumbs li:before,
 #main-header:not(.doctheme-no-override) #breadcrumb-section #breadcrumbs li {
-    color: #868686
+    color: #868686;
 }
 #main #main-header.overlay-header,
 .ia-splitter-handle-highlight,
