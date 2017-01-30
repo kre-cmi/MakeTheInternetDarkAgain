@@ -2,9 +2,8 @@ body, .aui-page-panel  {
     background: #1e1e1e;
     color: #ccd3d6 !important;
 }
-
 .confluenceTh, .confluenceTd {
-    border-color: #868686;
+    border-color: #333;
 }
 #footer-logo {
     background: #1e1e1e;
@@ -45,11 +44,11 @@ body, .aui-page-panel  {
     color: #868686;
 }
 h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-content h4, .pagetitle, .steptitle, .substeptitle, .formtitle, table.confluenceTable td.confluenceTd.highlight, table.confluenceTable td.confluenceTd.highlight > p, table.confluenceTable th.confluenceTh, table.confluenceTable th.confluenceTh > p, .wiki-content .tablesorter-header-inner, table.admin th, .form-element-large, .form-element-small, #toolbar #format-dropdown .format-h1 a, #toolbar #format-dropdown .format-h2 a, #toolbar #format-dropdown .format-h3 a, #toolbar #format-dropdown .format-h4 a {
-    color: #868686;
+    color: #ccd3d6;
 }
 #main #main-header.overlay-header {
-    border-bottom: 1px solid #333;
-    background-color: #333;
+    border-bottom: 1px solid #1e1e1e;
+    background-color: #1e1e1e;
 }
 #breadcrumbs li:before,
 #main-header:not(.doctheme-no-override) #breadcrumb-section #breadcrumbs li {
@@ -74,6 +73,21 @@ div.panel.pdl {
 .syntaxhighlighter.sh-confluence .string, .syntaxhighlighter.sh-confluence .string a {
     color: orange!important;
 }
+.panelHeader.pdl>b,
 blockquote p span{
     color: #868686!important;
+}
+table.confluenceTable th.confluenceTh, table.confluenceTable th.confluenceTh>p, table.confluenceTable td.confluenceTd.highlight, table.confluenceTable td.confluenceTd.highlight>p, table.confluenceTable th.confluenceTh.highlight-grey, table.confluenceTable th.confluenceTh.highlight-grey>p, table.confluenceTable td.confluenceTd.highlight-grey, table.confluenceTable td.confluenceTd.highlight-grey>p,
+.wiki-content table.tablesorter>thead>tr>th {
+    background: #333;
+}
+.pdl .codeContent .gutter,
+div.panelHeader.pdl,
+.confluence-information-macro-information {
+    background: #333;
+    color: #868686;
+    border-color: #333;
+}
+div.panel.pdl {
+    border-color: #333;
 }
