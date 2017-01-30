@@ -2,12 +2,18 @@ body, .aui-page-panel  {
     background: #1e1e1e;
     color: #ccd3d6 !important;
 }
+#footer-logo {
+    background: #1e1e1e;
+}
+#footer .footer-body a {
+    color: #868686;
+}
 .acs-side-bar, .ia-scrollable-section, .space-tools-section {
-	background: #333;
+    background: #333;
     color: #ccd3d6 !important;
 }
 .expand-collapse-trigger{
-	filter: invert(100%);	
+    filter: invert(100%);
 }
 /* Let's get this party started */
 ::-webkit-scrollbar {
@@ -31,4 +37,22 @@ body, .aui-page-panel  {
 ::-webkit-scrollbar-thumb:window-inactive {
     background: rgba(255,0,0,0.4);
 }
-
+#title-text a {
+    color: #868686;
+}
+h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-content h4, .pagetitle, .steptitle, .substeptitle, .formtitle, table.confluenceTable td.confluenceTd.highlight, table.confluenceTable td.confluenceTd.highlight > p, table.confluenceTable th.confluenceTh, table.confluenceTable th.confluenceTh > p, .wiki-content .tablesorter-header-inner, table.admin th, .form-element-large, .form-element-small, #toolbar #format-dropdown .format-h1 a, #toolbar #format-dropdown .format-h2 a, #toolbar #format-dropdown .format-h3 a, #toolbar #format-dropdown .format-h4 a {
+    color: #868686;
+}
+#main #main-header.overlay-header {
+    border-bottom: 1px solid #333;
+    background-color: #333;
+}
+#breadcrumbs li:before,
+#main-header:not(.doctheme-no-override) #breadcrumb-section #breadcrumbs li {
+    color: #868686
+}
+#main #main-header.overlay-header,
+.ia-splitter-handle-highlight,
+.space-tools-section {
+    border-color: #333;
+}
