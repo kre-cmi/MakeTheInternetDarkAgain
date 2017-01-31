@@ -18,8 +18,8 @@ body, .aui-page-panel  {
 	background-color: #333;
 	color: #ccd3d6;
 }
-.aui-dropdown2-section{
-	border: solid 1px #f0f0f0;	
+.aui-dropdown2-section, .aui-dd-parent .aui-dropdown, .aui-dropdown, .aui-dd-parent .aui-shadow-parent, #com-atlassian-confluence .aui-dd-parent .aui-dropdown{
+	border: solid 0px #f0f0f0;	
 }
 .confluenceTh, .confluenceTd {
     border-color: #333;
