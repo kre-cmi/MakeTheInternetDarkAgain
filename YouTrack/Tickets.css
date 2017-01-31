@@ -155,9 +155,10 @@ a:visited {
 	color: #ccd3d6;
 }
 .search-panel, .selectProject, .search-center .panel, .search-panel__context-btn, .suggest {
-	background: #252525;
-	border-color: #ccd3d6 !important;
-	-webkit-box-shadow: 0 1px 0 #ccd3d6;
+	background: #333;
+	border-color: #333 !important;
+	border-radius: 0;
+	-webkit-box-shadow: 0 2px 0 #ccd3d6;
 	box-shadow: 0 1px 0 #ccd3d6;
 }
 .suggest ul .separator .description, .suggest div.comment, .toolbar-unpined {
@@ -221,4 +222,7 @@ a:visited {
 }
 .tag-list_issues, .tag-list_edit {
 	background-color: #1e1e1e;
+}
+.jt-input[type=text], .jt-input[type=password] {
+	border-color: #333;
 }
