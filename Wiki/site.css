@@ -2,6 +2,25 @@ body, .aui-page-panel  {
     background: #1e1e1e;
     color: #ccd3d6 !important;
 }
+#header .aui-header, #com-atlassian-confluence .aui-dd-parent .aui-dropdown{
+	background-color: #333;
+}
+#header .quick-nav-drop-down li a, .aui-header .quick-nav-drop-down li a {
+	color: #ccd3d6;
+}
+#header .quick-nav-drop-down .aui-dropdown li a.space-name, .aui-header .quick-nav-drop-down .aui-dropdown li a.space-name{
+	color: #919699;
+}
+.aui-dropdown2.aui-style-default:hover .aui-dropdown2-checkbox, .aui-dropdown2.aui-style-default:hover .aui-dropdown2-radio, .aui-dropdown2.aui-style-default:hover a,
+.aui-dropdown2.aui-style-default [role="menuitem"], .aui-dropdown2.aui-style-default [role="menuitemcheckbox"], .aui-dropdown2.aui-style-default [role="menuitemradio"], .aui-dropdown2.aui-style-default [role="radio"], .aui-dropdown2.aui-style-default [role="checkbox"], .aui-dropdown2.aui-style-default a,
+.aui-dropdown2-in-header.aui-style-default a, .aui-dropdown2-in-header.aui-style-default a:visited, .aui-dropdown2-in-header.aui-style-default a:link, .aui-dropdown2-in-header.aui-style-default:hover a, .aui-dropdown2-in-header.aui-style-default:hover a:visited, .aui-dropdown2-in-header.aui-style-default:hover a:link,
+#com-atlassian-confluence .aui-dd-parent .aui-dropdown .dropdown-item a, .aui-dropdown2 .aui-dropdown2-section li a, .aui-dropdown2 .aui-dropdown2-section li a[role="menuitem"]{
+	background-color: #333;
+	color: #ccd3d6;
+}
+.aui-dropdown2-section{
+	border: solid 1px #f0f0f0;	
+}
 .confluenceTh, .confluenceTd {
     border-color: #333;
 }
