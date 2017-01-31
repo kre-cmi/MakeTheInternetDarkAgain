@@ -66,7 +66,7 @@ h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-cont
 a, a:visited, a:focus, a:hover, a:active, a.blogHeading,
 .acs-tree-item, .acs-side-bar a, .acs-side-bar td a,
 .wiki-content a, .wiki-content a:link, .wiki-content a:visited, .wiki-content a:focus, .wiki-content a:hover, .wiki-content a:active {
-    color: #8bc4ff;
+    color: #489dc7;
 }
 .ia-fixed-sidebar div.plugin_pagetree ul.plugin_pagetree_children_list li .plugin_pagetree_children_content .plugin_pagetree_current a {
     color: green;
@@ -105,4 +105,35 @@ div.panel.pdl {
 }
 .expand-collapse-trigger {
     background-color: #333;
+}
+.aui-button.aui-button-subtle {
+    color: #ccd3d6;
+}
+.aui-icon-small:before, .aui-icon-large:before {
+    color: #ccd3d6;
+}
+#search-results-header {
+    background-color: #333;
+    border-color: #333;
+}
+form.aui .text, form.aui .password, form.aui .upfile, form.aui .textarea, form.aui .select, form.aui .multi-select, form.aui .aui-select2-container,
+.aui-button, a.aui-button, .aui-button:visited {
+    background: #1e1e1e;
+    border-color: #333;
+    color: #ccd3d6;
+}
+.aui-select2-container.select2-container-multi .select2-choices {
+    background: #1e1e1e;
+    color: #ccd3d6;
+}
+form.aui .text, form.aui .password, form.aui .textarea, form.aui .select, form.aui .multi-select, form.aui .aui-select2-container .select2-choices,
+form.aui .aui-select2-container.users-autocomplete {
+    border-color: #333;
+}
+.aui-dropdown2.aui-style-default {
+    background-color: #333;
+    border-color: #333;
+}
+.select2-container-multi .select2-choices .select2-search-field input.select2-active{
+    background: #1e1e1e!important;
 }
