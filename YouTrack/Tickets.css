@@ -70,7 +70,8 @@ body {
 	color: #a2a2a2;
 }
 .agile:before, .smartui:before {
-	background: linear-gradient(to bottom, #333 0%, #1e1e1e 80%, #1e1e1e 100%, #1e1e1e 100%);
+	background: #333;
+	height: 100px;
 }
 .fsi-properties-container {
 	background: #333;
@@ -81,7 +82,9 @@ body {
 a:visited {
 	color: #489dc7;
 }
-.fsi-properties .fsi-property .attribute {
+.fsi-properties .fsi-property .attribute,
+.ring-menu__item__i,
+body .ring-link_pseudo {
 	color: #489dc7 !important;
 }
 .fsi__sidebar__bottom_sticky {
@@ -159,7 +162,7 @@ a:visited {
 	border-color: #333 !important;
 	border-radius: 0;
 	-webkit-box-shadow: 0 2px 0 #ccd3d6;
-	box-shadow: 0 1px 0 #333;
+	box-shadow: none;
 }
 .suggest ul .separator .description, .suggest div.comment, .toolbar-unpined {
 	background-color: #252525;
@@ -225,4 +228,13 @@ a:visited {
 }
 .jt-input[type=text], .jt-input[type=password] {
 	border-color: #333;
+}
+.search-center .panel,
+.selectProject {
+	border-color: #252525 !important;
+}
+.selectProject .inputWrapper,
+.search-center .panel, .selectProject {
+	background: #252525;
+	box-shadow: none;
 }
