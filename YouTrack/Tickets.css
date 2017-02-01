@@ -16,7 +16,7 @@ input {
 	background-color: #333
 }
 .search-panel__context-btn_disabled, .search-panel__context-btn_disabled:hover{
-	color: #ccd3d6;	
+	color: #ccd3d6;
 }
 .attach-wrapper.add-comment__attachments.has-attachments {
 	background-color: #333;
@@ -159,7 +159,7 @@ a:visited {
 	border-color: #333 !important;
 	border-radius: 0;
 	-webkit-box-shadow: 0 2px 0 #ccd3d6;
-	box-shadow: 0 1px 0 #ccd3d6;
+	box-shadow: 0 1px 0 #333;
 }
 .suggest ul .separator .description, .suggest div.comment, .toolbar-unpined {
 	background-color: #252525;
