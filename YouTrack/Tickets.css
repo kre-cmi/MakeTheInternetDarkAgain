@@ -9,6 +9,9 @@ input {
 	color: #ccd3d6 !important;
 	background: #1D1E1F;
 }
+.newIssue{
+	margin-top: 4em;
+}
 .search-panel__search-btn {
 	filter: invert(80%);
 }
