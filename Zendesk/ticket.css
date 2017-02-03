@@ -1,0 +1,71 @@
+.ember-view, body{
+	border-color: #1e1e1e !important;
+}
+#branding_header #user_options .header-search .search-icon, #zd-product-tray, .property_box_container, .zd-selectmenu-root, .zd-searchmenu-root, .zd-combo-selectmenu-root{
+	color:#fff;
+	background-color: #1e1e1e;
+}
+.ember-view .ember-text-area .autoresize, textarea{
+	background-color: #252525 !important;
+	color: #fff !important;
+}
+circle, path{
+	stroke: #fff !important;	
+}
+#tabs .tab.selected .tab-content-holder{
+	background-color: #03363d;
+	color: #ccd3d6;
+}
+.zd-menu-list-holder, .zd-selectmenu-base, .hasDatepicker, .ember-view .ember-text-field, input[type="text"]{
+	background-color: #333;
+	color:#fff;
+	border: 0;
+}
+.zd-selectmenu-base-arrow .zd-icon-arrow-down{
+	border-top-color: #fff;
+}
+#tabs .tab{
+	background-color: #333;
+	color: #ccd3d6;
+}
+#branding_header{
+	background: #1e1e1e;	
+}
+.section.ticket, .mast, .pane .left, .workspace header .pane{
+	background-color: #333;
+	color: #ccd3d6;
+}
+.event .header .actor .name a, #tabs .tab.selected .tab-content-holder .tab_text, .mast .editable input, #tabs .tab > .tab-content-holder .tab_text, .zd-selectmenu-base-content{
+	color: #fff;
+}
+#tabs .mail.tab > .tab-content-holder .icon, #tabs .mail.selected > .tab-content-holder .icon, #tabs .add.tab > .tab-content-holder .icon, #tabs .add.selected > .tab-content-holder .icon {
+	filter: invert(100%);
+}
+#tabs .tab.add{
+	background-color: #333 !important;
+	color: #ccd3d6 !important;
+	max-width:200px;
+	width:200px;
+}
+.workspace.apps:not(.ticket_editor_app), .ticket-sidebar .property_box, .ticket footer, .ember-view .column, .ember-view .pane .left .section .ticket-sidebar{
+	background-color: #1e1e1e !important;
+	color: #ccd3d6 !important;
+}
+::-webkit-scrollbar {
+	width: 12px;
+}
+/* Track */
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background: rgb(86, 86, 86);
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
