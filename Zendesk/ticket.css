@@ -179,3 +179,8 @@ footer .object_options .dropdown-toggle, .footer .object_options .dropdown-toggl
 .zd-menu-root {
 	border: none;
 }
+#tabs .web.tab > .tab-content-holder .icon, #tabs .web.selected > .tab-content-holder .icon,
+.next_option .next_icon,
+.ticket footer .post-save-actions .dropdown-toggle:after {
+	filter: invert(100%);
+}
