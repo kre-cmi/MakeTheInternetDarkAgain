@@ -73,7 +73,7 @@ circle, path{
 }
 .ticket-sidebar .property_box {
 	background-color: #333!important;
-	border-color: #333;
+	border-color: #333 !important;
 }
 .section.ticket .pane_body {
 	background-color: #1e1e1e;
@@ -84,6 +84,9 @@ circle, path{
 }
 .split_pane.ticket > .pane.right .section .mast,
 .mast .editable input {
+	border: none;
+}
+.editable input[type="text"]:hover {
 	border: none;
 }
 .main_panes header, .workspace header {
@@ -181,6 +184,7 @@ footer .object_options .dropdown-toggle, .footer .object_options .dropdown-toggl
 }
 #tabs .web.tab > .tab-content-holder .icon, #tabs .web.selected > .tab-content-holder .icon,
 .next_option .next_icon,
-.ticket footer .post-save-actions .dropdown-toggle:after {
+.ticket footer .post-save-actions .dropdown-toggle:after,
+.dropdown-menu .selected::after {
 	filter: invert(100%);
 }
