@@ -119,7 +119,7 @@ circle, path{
 	border: none;
 }
 .mast .object_options_btn {
-	background-color: #1e1e1e;
+	background-color: rgb(38, 38, 38);
 	color: #333;
 	border: none;
 }
