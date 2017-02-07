@@ -10,14 +10,14 @@
 	color: #fff !important;
 }
 circle, path{
-	stroke: #fff !important;	
+	stroke: #fff !important;
 }
 #tabs .tab.selected .tab-content-holder{
 	background-color: #03363d;
 	color: #ccd3d6;
 }
 .zd-menu-list-holder, .zd-selectmenu-base, .hasDatepicker, .ember-view .ember-text-field, input[type="text"]{
-	background-color: #333;
+	background-color: rgb(38, 38, 38);
 	color:#fff;
 	border: 0;
 }
@@ -28,8 +28,12 @@ circle, path{
 	background-color: #333;
 	color: #ccd3d6;
 }
-#branding_header{
-	background: #1e1e1e;	
+#branding_header {
+	background: #1e1e1e;
+}
+#branding_header #user_options,
+#branding_header #tabs {
+	background: #333;
 }
 .section.ticket, .mast, .pane .left, .workspace header .pane{
 	background-color: #333;
@@ -47,9 +51,12 @@ circle, path{
 	max-width:200px;
 	width:200px;
 }
-.workspace.apps:not(.ticket_editor_app), .ticket-sidebar .property_box, .ticket footer, .ember-view .column, .ember-view .pane .left .section .ticket-sidebar{
+.workspace.apps:not(.ticket_editor_app), .ticket-sidebar .property_box, .ticket footer, .ember-view .column, .ember-view .pane .left .section .ticket-sidebar {
 	background-color: #1e1e1e !important;
 	color: #ccd3d6 !important;
+}
+.split_pane.ticket footer {
+	border-color: #333;
 }
 ::-webkit-scrollbar {
 	width: 12px;
@@ -57,15 +64,118 @@ circle, path{
 /* Track */
 
 ::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
+	background: #333;
 }
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
 	background: rgb(86, 86, 86);
-	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+.ticket-sidebar .property_box {
+	background-color: #333!important;
+	border-color: #333;
+}
+.section.ticket .pane_body {
+	background-color: #1e1e1e;
+}
+.section.ticket .tab-controls-container {
+	background-color: #1e1e1e;
+	border-color: #333;
+}
+.split_pane.ticket > .pane.right .section .mast,
+.mast .editable input {
+	border: none;
+}
+.main_panes header, .workspace header {
+	border-color: #333 !important;
+}
+.c-tab__list .c-tab__list__item, .c-tab__list__dropdown .c-tab__list__item {
+	border-color: #fff !important;
+	color: #fff;
+}
+.c-tab__list__item.c-tab__list__item.is-selected {
+	color: #838383
+}
+.left.pane .property_box_container {
+	background: #333;
+}
+.split_pane.ticket > .pane.right {
+	border-color: #333 !important;
+}
+.main_panes header .pane .btn, .workspace header .pane .btn {
+	background-color: rgb(38, 38, 38)!important;
+	color: #fff;
+	border: none;
+}
+.ticket_status_label.closed, .sla-policy-metric-action-label.closed {
+	background-color: #333 !important;
+}
+.current_collaborators .zd-menu-list-holder {
+	background-color: #333;
+}
+.event:not(.is-public) .comment {
+	background-color: #333;
+	color: #fff;
+	border: none;
+}
+.mast .object_options_btn {
+	background-color: #1e1e1e;
+	color: #333;
+	border: none;
+}
+.mast .object_options_btn:after {
+	filter: invert(100%);
+}
+.zd-tag-item,
+.section.ticket .notice,
+.section.ticket .notice p.pre{
+	background-color: #333;
+	color: #fff;
+	border: none;
+}
+.zd-tag-item a {
+	color: #fff;
+}
+.zd-tag-menu-root {
+	background-color: rgb(38, 38, 38);
+	border: none;
+}
+.ticket_collision,
+ul.attachments li {
+	background-color: #333;
+	color: #fff;
+}
+ul.attachments li .attachment i {
+	filter: invert(100%);
+}
+.section.ticket .conversation-nav .dropdown-toggle:after {
+	filter: invert(100%);
+}
+footer .object_options .dropdown-toggle, .footer .object_options .dropdown-toggle {
+	color: #fff;
+}
+.comment_input .btn,
+.markdown_info {
+	background: #333;
+	border: none;
+	color: #fff;
+}
+.dropdown-menu {
+	background-color: #333;
+}
+.dropdown-menu li a {
+	color: #fff;
+}
+.zd-searchmenu-base {
+	background-color: rgb(38, 38, 38);
+	color: #fff;
+}
+.zd-menu-item {
+	background-color: #333;
+}
+.zd-menu-item > a {
+	color: #fff;
+}
+.zd-menu-root {
+	border: none;
 }
