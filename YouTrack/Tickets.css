@@ -19,6 +19,13 @@ input {
     height: 16px;
     filter: invert(75%);
 }
+.wiki-tbl-th{
+	padding: 2px;
+    font-weight: bold;
+    border: 1px solid #898989;
+    background-color: #333;
+	color: #ccd3d6;
+}
 .newIssue{
 	margin-top: 4em;
 }
@@ -26,8 +33,9 @@ input {
 	background: #1e1e1e;
 	border-left: 0px;
 }
-.ring-font-icon .ring-font-icon_search .ring-input_icon__span .search-panel__search-ico{
-	filter: invert(100%);
+
+.search-panel__search-ico{
+	text-shadow: none;
 }
 .search-panel__search-btn:hover{
 	background: #333;
@@ -121,7 +129,7 @@ body .ring-link_pseudo {
 	background: #252525;
 	color: #ccd3d6 !important;
 }
-.jt-panel-active div, .ring-tabs__btn__counter {
+.jt-panel-active div, .ring-tabs__btn__counter, .search-panel__search-btn {
 	color: #ccd3d6 !important;
 }
 .search-panel-input .jt-input, .selectProject input {
