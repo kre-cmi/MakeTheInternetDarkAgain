@@ -1,9 +1,18 @@
-.ember-view, body{
-	border-color: #1e1e1e !important;
+#tabs .tab:not(.add):not(.overflow-tab), #tabs .tab, .workspace.apps:not(.ticket_editor_app), .split_pane.collapsible .pane.left, .split_pane.dashboard > header .pane.left{
+	border-color: #333;	
 }
-#branding_header #user_options .header-search .search-icon, #zd-product-tray, .property_box_container, .zd-selectmenu-root, .zd-searchmenu-root, .zd-combo-selectmenu-root{
+.ember-view, body{
+	border-color: #1e1e1e;
+}
+select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, .editable input[type="text"]:focus, .focused, .token_list.ui-state-focus, .ui-selectmenu:focus, .zd-state-focus .zd-selectmenu-base, .zd-state-focus .zd-searchmenu-base {
+	border-color: #03363d!important;	
+}
+#branding_header #user_options .header-search .search-icon, .property_box_container, .zd-selectmenu-root, .zd-searchmenu-root, .zd-combo-selectmenu-root, #wrapper, .filters > .pane.left ul.filters li.selected, .clearfix, h4.list-heading{
 	color:#fff;
 	background-color: #1e1e1e;
+}
+.filters > .pane.left ul.filters li:not(.selected):hover, .filter_tickets:not(.deleted) .regular:hover td{
+	background-color: rgb(45, 45, 45);
 }
 .ember-view .ember-text-area .autoresize, textarea{
 	background-color: #252525 !important;
@@ -12,11 +21,21 @@
 circle, path{
 	stroke: #fff !important;
 }
+.activities .comment_value{
+	color: #ccd3d6;
+}
 #tabs .tab.selected .tab-content-holder{
 	background-color: #03363d;
 	color: #ccd3d6;
 }
-.zd-menu-list-holder, .zd-selectmenu-base, .hasDatepicker, .ember-view .ember-text-field, input[type="text"]{
+.main_panes header .pane, .workspace header .pane{
+	padding: 5px 0;	
+}
+.ticket .form_field.highlight_update:not(.fr-focus) .zd-selectmenu-base, .current_collaborators .zd-tag-menu-root, .user-picker-menu-base .zd-tag-menu-root, .current_collaborators .zd-menu-list-holder, div.jGrowl div.jGrowl-notification {
+	background-color: rgb(38, 38, 38);
+	color: #ccd3d6;
+}
+.zd-menu-list-holder, .zd-selectmenu-base, .hasDatepicker, .ember-view .ember-text-field, input[type="text"], .activities .item, .activities .description{
 	background-color: rgb(38, 38, 38);
 	color:#fff;
 	border: 0;
@@ -24,7 +43,7 @@ circle, path{
 .zd-selectmenu-base-arrow .zd-icon-arrow-down{
 	border-top-color: #fff;
 }
-#tabs .tab{
+#tabs .tab, .split_pane.collapsible .pane.left, section.filters .right header, #branding_header #user_options .header-search .search-icon, #zd-product-tray, .split_pane.dashboard > header .pane.left, .split_pane.dashboard > header .pane.right, .main_panes > .pane.section.aux-content{
 	background-color: #333;
 	color: #ccd3d6;
 }
@@ -32,26 +51,40 @@ circle, path{
 	background: #1e1e1e;
 }
 #branding_header #user_options,
-#branding_header #tabs {
+#branding_header #tabs, #branding_header {
 	background: #333;
 }
-.section.ticket, .mast, .pane .left, .workspace header .pane{
+.pane .left, .workspace header .pane, .workspace.apps:not(.ticket_editor_app){
 	background-color: #333;
 	color: #ccd3d6;
 }
-.event .header .actor .name a, #tabs .tab.selected .tab-content-holder .tab_text, .mast .editable input, #tabs .tab > .tab-content-holder .tab_text, .zd-selectmenu-base-content{
+.mast{
+	background-color: #1e1e1e;
+	color: #ccd3d6;
+}
+.filter_tickets .is-viewed-by-others td.collision div{
+	filter:invert(100%);
+	opacity: 1;
+}
+.filter_tickets td{
+	border-color: #ccd3d6;	
+}
+.zd-selectmenu-base-content, .filters > .pane.left ul.filters li.has-zero-ticket-count:not(.selected) a, .filters > .pane.left ul.filters li a, .user_filters > .pane.left ul.filters li a, .user > .pane.left ul.filters li a, .filter_tickets td a, .filter_tickets td{
+	color: #ccd3d6;	
+}
+.event .header .actor .name a, #tabs .tab.selected .tab-content-holder .tab_text, .mast .editable input, #tabs .tab > .tab-content-holder .tab_text, section.filters .right header h1, .filter_tickets th{
 	color: #fff;
 }
 #tabs .mail.tab > .tab-content-holder .icon, #tabs .mail.selected > .tab-content-holder .icon, #tabs .add.tab > .tab-content-holder .icon, #tabs .add.selected > .tab-content-holder .icon {
 	filter: invert(100%);
 }
 #tabs .tab.add{
-	background-color: #333 !important;
+	background-color: #1e1e1e !important;
 	color: #ccd3d6 !important;
 	max-width:200px;
 	width:200px;
 }
-.workspace.apps:not(.ticket_editor_app), .ticket-sidebar .property_box, .ticket footer, .ember-view .column, .ember-view .pane .left .section .ticket-sidebar {
+.ticket-sidebar .property_box, .ticket footer, .ember-view .pane .left .section .ticket-sidebar, .section.ticket {
 	background-color: #1e1e1e !important;
 	color: #ccd3d6 !important;
 }
@@ -102,8 +135,8 @@ circle, path{
 .left.pane .property_box_container {
 	background: #333;
 }
-.split_pane.ticket > .pane.right {
-	border-color: #333 !important;
+.split_pane.ticket > .pane.right, .header .pane_header .mast .clearfix .web {
+	border-color: #1e1e1e !important;
 }
 .main_panes header .pane .btn, .workspace header .pane .btn {
 	background-color: rgb(38, 38, 38)!important;
@@ -112,9 +145,6 @@ circle, path{
 }
 .ticket_status_label.closed, .sla-policy-metric-action-label.closed {
 	background-color: #333 !important;
-}
-.current_collaborators .zd-menu-list-holder {
-	background-color: #333;
 }
 .event:not(.is-public) .comment {
 	background-color: #333;
@@ -126,17 +156,15 @@ circle, path{
 	color: #333;
 	border: none;
 }
-.mast .object_options_btn:after {
+.mast .object_options_btn:after, [class^="icon-"]:last-child, [class*=" icon-"]:last-child {
 	filter: invert(100%);
 }
-.zd-tag-item,
-.section.ticket .notice,
-.section.ticket .notice p.pre{
+.zd-tag-item,.section.ticket .notice,.section.ticket .notice p.pre{
 	background-color: #333;
 	color: #fff;
 	border: none;
 }
-.zd-tag-item a {
+.zd-tag-item a, section.filters .left header h1 {
 	color: #fff;
 }
 .zd-tag-menu-root {
