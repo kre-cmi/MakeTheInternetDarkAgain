@@ -7,6 +7,29 @@
 select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, .editable input[type="text"]:focus, .focused, .token_list.ui-state-focus, .ui-selectmenu:focus, .zd-state-focus .zd-selectmenu-base, .zd-state-focus .zd-searchmenu-base {
 	border-color: #03363d!important;	
 }
+.event.is-new{
+	background-color: #1e1e1e;
+	color: #fff;
+}
+.notification.v2 .btn:hover{
+	background-color: rgb(45,45,45);
+}
+.notification.v2 .btn{
+	background-color: #333;
+	color: #fff;
+	border: 0;
+	border-radius: 0;
+}
+.main_panes > .pane.left{
+	background-color:#333;
+	color: #ccd3d6;
+}
+.notification.v2{
+	color:#fff;
+	background-color: #1e1e1e;
+	border: 0;
+	border-radius: 0;
+}
 #branding_header #user_options .header-search .search-icon, .property_box_container, .zd-selectmenu-root, .zd-searchmenu-root, .zd-combo-selectmenu-root, #wrapper, .filters > .pane.left ul.filters li.selected, .clearfix, h4.list-heading{
 	color:#fff;
 	background-color: #1e1e1e;
