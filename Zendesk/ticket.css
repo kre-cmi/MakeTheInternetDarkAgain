@@ -20,6 +20,10 @@ select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, 
 	border: 0;
 	border-radius: 0;
 }
+.goog-text-highlight{
+	background-color: #333;
+	box-shadow: 1px 1px 1px 1px;
+}
 .main_panes > .pane.left{
 	background-color:#333;
 	color: #ccd3d6;
