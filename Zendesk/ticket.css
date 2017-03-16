@@ -28,6 +28,9 @@ select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, 
 	background-color:#333;
 	color: #ccd3d6;
 }
+.zd-combo-selectmenu .zd-highlight, .zd-selectmenu .zd-highlight, .zd-searchmenu .zd-highlight{
+	color: #ccd3d6 !important;
+}
 .notification.v2{
 	color:#fff;
 	background-color: #1e1e1e;
