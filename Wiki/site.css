@@ -48,14 +48,12 @@ body, .aui-page-panel, #full-height-container  {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+    /*-webkit-border-radius: 10px;
+    border-radius: 10px;*/
     background: rgb(86, 86, 86);
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
-::-webkit-scrollbar-thumb:window-inactive {
-    background: rgba(255,0,0,0.4);
-}
+
 ::-webkit-scrollbar-corner {
     background: #333;
 }
@@ -88,7 +86,10 @@ a, a:visited, a:focus, a:hover, a:active, a.blogHeading,
     color: #489dc7;
 }
 .ia-fixed-sidebar div.plugin_pagetree ul.plugin_pagetree_children_list li .plugin_pagetree_children_content .plugin_pagetree_current a {
-    color: green;
+    color: #fff;
+}
+.acs-side-bar-space-info .avatar-img-container .avatar-img-wrapper{
+	border:0;
 }
 div.panel.pdl {
     border-color: #868686;
