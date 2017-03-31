@@ -11,11 +11,24 @@ background-color: #333;
 	background-color: #1e1e1e;
 	color:#fff !important;
 }
-.title{
+.main_panes > .pane.right, .indicators, h4.list-heading{
+	border: 0;
+}
+.title, .app-6536 .whole .card .contacts div.name a{
 	color:#fff;
 }
 select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, .editable input[type="text"]:focus, .focused, .token_list.ui-state-focus, .ui-selectmenu:focus, .zd-state-focus .zd-selectmenu-base, .zd-state-focus .zd-searchmenu-base {
 	border-color: #03363d!important;	
+}
+.app-6536 .whole, .workspace.apps:not(.ticket_editor_app) .app_view_outer, .app-6536 .whole .expand-bar{
+	background-color: #333;
+	background: #333;
+}
+.workspace.apps:not(.ticket_editor_app) .app_view_outer{
+	border: 0px;	
+}
+.app-6536 .whole .card .counts li .ticket_status_label{
+	opacity: 1!important;
 }
 .event.is-new{
 	background-color: #1e1e1e;
@@ -189,7 +202,14 @@ circle, path{
 .event:not(.is-public) .comment {
 	background-color: #333;
 	color: #fff;
-	border: none;
+	border-color: #988218;
+}
+.ticket .form_field.highlight_update:not(.fr-focus).checkbox-field, .ticket .form_field.highlight_update:not(.fr-focus).requester .zd-searchmenu-base, .ticket .form_field.highlight_update:not(.fr-focus).problem_id .zd-searchmenu-base, .ticket .form_field.highlight_update:not(.fr-focus) .zd-tag-menu-root, .ticket .form_field.highlight_update:not(.fr-focus) .zd-selectmenu-base, .ticket .form_field.highlight_update:not(.fr-focus) .ui-state-default, .ticket .form_field.highlight_update:not(.fr-focus) textarea, .ticket .form_field.highlight_update:not(.fr-focus) > input:not([type=checkbox]){
+	background-color: rgb(38,38,38);
+}
+.indicators ul{
+	background-color: #333;
+    border: 1px solid #333;	
 }
 .mast .object_options_btn {
 	background-color: rgb(38, 38, 38);
