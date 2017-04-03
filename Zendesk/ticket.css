@@ -1,6 +1,12 @@
 #tabs .tab:not(.add):not(.overflow-tab), #tabs .tab, .workspace.apps:not(.ticket_editor_app), .split_pane.collapsible .pane.left, .split_pane.dashboard > header .pane.left{
 	border-color: #333;	
 }
+#main_navigation {
+    background: #333;
+}
+#main_navigation .toolbar_link {
+    color: #59BBE0;
+}
 .ember-view, body{
 	border-color: #1e1e1e;
 }
@@ -18,14 +24,13 @@ background-color: #333;
 	color:#fff;
 }
 select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, .editable input[type="text"]:focus, .focused, .token_list.ui-state-focus, .ui-selectmenu:focus, .zd-state-focus .zd-selectmenu-base, .zd-state-focus .zd-searchmenu-base {
-	border-color: #03363d!important;	
+	border-color: #03363d!important;
 }
 .app-6536 .whole, .workspace.apps:not(.ticket_editor_app) .app_view_outer, .app-6536 .whole .expand-bar{
-	background-color: #333;
-	background: #333;
+    background: #333;
 }
 .workspace.apps:not(.ticket_editor_app) .app_view_outer{
-	border: 0px;	
+	border: 0;
 }
 .app-6536 .whole .card .counts li .ticket_status_label{
 	opacity: 1!important;
@@ -72,13 +77,13 @@ select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, 
 	color: #fff !important;
 }
 circle, path{
-	stroke: #fff !important;
+	stroke: #59BBE0 !important;
 }
 .activities .comment_value{
 	color: #ccd3d6;
 }
 #tabs .tab.selected .tab-content-holder{
-	background-color: #03363d;
+	background-color: #333;
 	color: #ccd3d6;
 }
 .main_panes header .pane, .workspace header .pane{
@@ -97,7 +102,7 @@ circle, path{
 	border-top-color: #fff;
 }
 #tabs .tab, .split_pane.collapsible .pane.left, section.filters .right header, #branding_header #user_options .header-search .search-icon, #zd-product-tray, .split_pane.dashboard > header .pane.left, .split_pane.dashboard > header .pane.right, .main_panes > .pane.section.aux-content{
-	background-color: #333;
+	background-color: #1e1e1e;
 	color: #ccd3d6;
 }
 #branding_header {
@@ -275,4 +280,17 @@ footer .object_options .dropdown-toggle, .footer .object_options .dropdown-toggl
 .ticket footer .post-save-actions .dropdown-toggle:after,
 .dropdown-menu .selected::after {
 	filter: invert(100%);
+}
+.zd-selectmenu-base {
+    background-image: none;
+}
+.macro-selector .zd-selectmenu-base-content {
+    color: #fff;
+}
+.macro-selector .zd-selectmenu-base .zd-selectmenu-base-content .icon,
+.macro-selector .zd-selectmenu-base-arrow {
+    filter: invert(100%);
+}
+.mast.pane_header .round-avatar {
+    filter: invert(86%);
 }
