@@ -10,8 +10,14 @@
 .ember-view, body{
 	border-color: #1e1e1e;
 }
+.split_pane.ticket .pane.left{
+	width: 315px;
+}
+.ticket-sidebar .property_box{
+	padding: 0;
+}
 body {
-background-color: #333;
+	background-color: #333;
 }
 .modal{
 	background-color: #1e1e1e;
@@ -32,7 +38,7 @@ select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, 
 .workspace.apps:not(.ticket_editor_app) .app_view_outer{
 	border: 0;
 }
-.app-6536 .whole .card .counts li .ticket_status_label{
+.app-6536 .whole .card .counts li .ticket_status_label, .ticket_status_label.compact{
 	opacity: 1!important;
 }
 .event.is-new{
@@ -47,6 +53,21 @@ select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, 
 	color: #fff;
 	border: 0;
 	border-radius: 0;
+}
+#tabs .tab .popover.bottom.add .popover-inner{
+	background-color: #333;
+	border-radius: 0;
+	border-color: #1e1e1e;
+}
+#tabs .tab .popover.bottom.add .popover-inner .links-section a{
+	color:#fff;
+}
+#tabs .tab .popover.bottom.add .popover-inner .links-section li:hover, #tabs .tab .recent-ticket:hover{
+	background-color: #1e1e1e;	
+}
+#tabs .tab .popover.bottom.add .popover-inner .popover-title, .popover-content{
+	background-color:#333;
+	color: #ccd3d6;
 }
 .goog-text-highlight{
 	background-color: #333;
@@ -65,7 +86,14 @@ select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, 
 	border: 0;
 	border-radius: 0;
 }
-#branding_header #user_options .header-search .search-icon, .property_box_container, .zd-selectmenu-root, .zd-searchmenu-root, .zd-combo-selectmenu-root, #wrapper, .filters > .pane.left ul.filters li.selected, .clearfix, h4.list-heading{
+#tabs .tab > .tab-content-holder .close:hover{
+	background-color: #1e1e1e;	
+}
+#branding_header #user_options .header-search .search-icon,  #zd-product-tray{	
+	color:#fff;
+	background-color: #333;
+}
+.property_box_container, .zd-selectmenu-root, .zd-searchmenu-root, .zd-combo-selectmenu-root, #wrapper, .filters > .pane.left ul.filters li.selected, .clearfix, h4.list-heading{
 	color:#fff;
 	background-color: #1e1e1e;
 }
@@ -101,7 +129,7 @@ circle, path{
 .zd-selectmenu-base-arrow .zd-icon-arrow-down{
 	border-top-color: #fff;
 }
-#tabs .tab, .split_pane.collapsible .pane.left, section.filters .right header, #branding_header #user_options .header-search .search-icon, #zd-product-tray, .split_pane.dashboard > header .pane.left, .split_pane.dashboard > header .pane.right, .main_panes > .pane.section.aux-content{
+#tabs .tab, .split_pane.collapsible .pane.left, section.filters .right header, .split_pane.dashboard > header .pane.left, .split_pane.dashboard > header .pane.right, .main_panes > .pane.section.aux-content{
 	background-color: #1e1e1e;
 	color: #ccd3d6;
 }
