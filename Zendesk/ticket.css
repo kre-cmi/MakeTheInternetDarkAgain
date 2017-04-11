@@ -7,6 +7,9 @@
 #main_navigation .toolbar_link {
 	color: #59BBE0;
 }
+#main_navigation .toolbar_link.active-product-link{
+	color: #fff;
+}
 .ember-view, body {
 	border-color: #1e1e1e;
 }
@@ -104,9 +107,12 @@ select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, 
 	color: #fff;
 	background-color: #333;
 }
-.property_box_container, .zd-selectmenu-root, .zd-searchmenu-root, .zd-combo-selectmenu-root, #wrapper, .filters > .pane.left ul.filters li.selected, .clearfix, h4.list-heading {
+.property_box_container, .zd-selectmenu-root, .zd-searchmenu-root, .zd-combo-selectmenu-root,  .clearfix, h4.list-heading {
 	color: #fff;
 	background-color: #1e1e1e;
+}
+#wrapper .filters > .pane.left ul.filters li.selected, section.filters .right header{
+	background-color: #333;
 }
 .filters > .pane.left ul.filters li:not(.selected):hover, .filter_tickets:not(.deleted) .regular:hover td {
 	background-color: rgb(45, 45, 45);
@@ -140,7 +146,7 @@ circle, path {
 .zd-selectmenu-base-arrow .zd-icon-arrow-down {
 	border-top-color: #fff;
 }
-#tabs .tab, .split_pane.collapsible .pane.left, section.filters .right header, .split_pane.dashboard > header .pane.left, .split_pane.dashboard > header .pane.right, .main_panes > .pane.section.aux-content {
+#tabs .tab, .split_pane.collapsible .pane.left, .split_pane.dashboard > header .pane.left, .split_pane.dashboard > header .pane.right, .main_panes > .pane.section.aux-content {
 	background-color: #1e1e1e;
 	color: #ccd3d6;
 }
@@ -163,7 +169,7 @@ circle, path {
 	opacity: 1;
 }
 .filter_tickets td {
-	border-color: #ccd3d6;
+	border-color: #545454;
 }
 .zd-selectmenu-base-content, .filters > .pane.left ul.filters li.has-zero-ticket-count:not(.selected) a, .filters > .pane.left ul.filters li a, .user_filters > .pane.left ul.filters li a, .user > .pane.left ul.filters li a, .filter_tickets td a, .filter_tickets td {
 	color: #ccd3d6;
