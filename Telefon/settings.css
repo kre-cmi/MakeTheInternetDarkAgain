@@ -1,0 +1,13 @@
+body, .header{
+	background-color:#333;
+	color: #ccd3d6;
+}
+.header{
+	background-image: url();
+}
+.header img{
+	filter:invert(1);
+}
+tr.first td {
+	background-color: #1e1e1e;
+}
