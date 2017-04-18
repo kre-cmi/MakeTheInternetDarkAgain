@@ -1,9 +1,10 @@
 body, .aui-page-panel, #full-height-container  {
-    background: #1e1e1e;
+    background: #333333;
     color: #ccd3d6 !important;
 }
 #header .aui-header, #com-atlassian-confluence .aui-dd-parent .aui-dropdown{
 	background-color: #333;
+	border-color: #333;
 }
 #header .quick-nav-drop-down li a, .aui-header .quick-nav-drop-down li a {
 	color: #ccd3d6;
@@ -11,32 +12,45 @@ body, .aui-page-panel, #full-height-container  {
 #header .quick-nav-drop-down .aui-dropdown li a.space-name, .aui-header .quick-nav-drop-down .aui-dropdown li a.space-name{
 	color: #919699;
 }
+.confluence-information-macro-note{
+	background-color: rgb(40,40,40);
+	color: #ccd3d6;
+	border: 2px solid #ffeaae;
+}
+tbody {
+	background-color: rgb(40,40,40);
+}
 .aui-dropdown2.aui-style-default:hover .aui-dropdown2-checkbox, .aui-dropdown2.aui-style-default:hover .aui-dropdown2-radio, .aui-dropdown2.aui-style-default:hover a,
-.aui-dropdown2.aui-style-default [role="menuitem"], .aui-dropdown2.aui-style-default [role="menuitemcheckbox"], .aui-dropdown2.aui-style-default [role="menuitemradio"], .aui-dropdown2.aui-style-default [role="radio"], .aui-dropdown2.aui-style-default [role="checkbox"], .aui-dropdown2.aui-style-default a,
+.aui-dropdown2.aui-style-default [role="menuitem"], .aui-dropdown2.aui-style-default [role="menuitemcheckbox"], .aui-dropdown2.aui-style-default [role="menuitemradio"], .aui-dropdown2.aui-style-default [role="radio"], .aui-dropdown2.aui-style-default [role="checkbox"], .aui-dropdown3.aui-style-default a,
 .aui-dropdown2-in-header.aui-style-default a, .aui-dropdown2-in-header.aui-style-default a:visited, .aui-dropdown2-in-header.aui-style-default a:link, .aui-dropdown2-in-header.aui-style-default:hover a, .aui-dropdown2-in-header.aui-style-default:hover a:visited, .aui-dropdown2-in-header.aui-style-default:hover a:link,
 #com-atlassian-confluence .aui-dd-parent .aui-dropdown .dropdown-item a, .aui-dropdown2 .aui-dropdown2-section li a, .aui-dropdown2 .aui-dropdown2-section li a[role="menuitem"]{
-	background-color: #333;
+	background-color: #1e1e1e;
 	color: #ccd3d6;
 }
 .aui-dropdown2-section, .aui-dd-parent .aui-dropdown, .aui-dropdown, .aui-dd-parent .aui-shadow-parent, #com-atlassian-confluence .aui-dd-parent .aui-dropdown{
 	border: solid 0px #f0f0f0;	
 }
 .confluenceTh, .confluenceTd {
-    border-color: #333;
+    border-color: #1e1e1e;
 }
 #footer-logo {
-    background: #1e1e1e;
+    background: #333333;
 }
 #footer .footer-body a {
     color: #868686;
 }
 .acs-side-bar, .ia-scrollable-section, .space-tools-section {
-    background: #333;
+    background: #1e1e1e;
     color: #ccd3d6 !important;
 }
 /* Let's get this party started */
 ::-webkit-scrollbar {
     width: 12px;
+	height: 10px;
+}
+.wiki-content table.tablesorter>thead>tr>th.tablesorter-headerSortUp, .wiki-content table.tablesorter>thead>tr:hover>th{
+	background-image: url();
+	background-color: rgb(38,38,38);
 }
 
 /* Track */
@@ -55,7 +69,7 @@ body, .aui-page-panel, #full-height-container  {
 }
 
 ::-webkit-scrollbar-corner {
-    background: #333;
+    background: #1e1e1e;
 }
 
 #title-text a {
@@ -65,8 +79,8 @@ h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-cont
     color: #ccd3d6;
 }
 #main #main-header.overlay-header {
-    border-bottom: 1px solid #1e1e1e;
-    background-color: #1e1e1e;
+    border-bottom: 1px solid #333333;
+    background-color: #333333;
 }
 #breadcrumbs li:before,
 #main-header:not(.doctheme-no-override) #breadcrumb-section #breadcrumbs li {
@@ -75,7 +89,7 @@ h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-cont
 #main #main-header.overlay-header,
 .ia-splitter-handle-highlight,
 .space-tools-section {
-    border-color: #1e1e1e;
+    border-color: #333333;
 }
 #acs-nav-list-main .acs-nav-item-label, #acs-nav-list-quick .acs-nav-item-label, .acs-nav-sections p, .acs-side-bar h5 {
     color: #ccd3d6;
@@ -97,7 +111,7 @@ div.panel.pdl {
 .code, .preformatted,
 .pdl .panelContent,
 .syntaxhighlighter.sh-confluence {
-    background-color: #1e1e1e !important;
+    background-color: #333333 !important;
 }
 .syntaxhighlighter.sh-confluence .plain, .syntaxhighlighter.sh-confluence .plain a {
     color: #ccd3d6!important;
@@ -111,20 +125,20 @@ blockquote p span{
 }
 table.confluenceTable th.confluenceTh, table.confluenceTable th.confluenceTh>p, table.confluenceTable td.confluenceTd.highlight, table.confluenceTable td.confluenceTd.highlight>p, table.confluenceTable th.confluenceTh.highlight-grey, table.confluenceTable th.confluenceTh.highlight-grey>p, table.confluenceTable td.confluenceTd.highlight-grey, table.confluenceTable td.confluenceTd.highlight-grey>p,
 .wiki-content table.tablesorter>thead>tr>th {
-    background: #333;
+    background: #1e1e1e;
 }
 .pdl .codeContent .gutter,
 div.panelHeader.pdl,
 .confluence-information-macro-information {
-    background: #333;
+    background: #1e1e1e;
     color: #ccd3d6;
-    border-color: #333;
+    border-color: #1e1e1e;
 }
 div.panel.pdl {
-    border-color: #333;
+    border-color: #1e1e1e;
 }
 .expand-collapse-trigger {
-    background-color: #333;
+    background-color: #1e1e1e;
 }
 .aui-button.aui-button-subtle {
     color: #ccd3d6;
@@ -133,27 +147,27 @@ div.panel.pdl {
     color: #ccd3d6;
 }
 #search-results-header {
-    background-color: #333;
-    border-color: #333;
+    background-color: #1e1e1e;
+    border-color: #1e1e1e;
 }
 form.aui .text, form.aui .password, form.aui .upfile, form.aui .textarea, form.aui .select, form.aui .multi-select, form.aui .aui-select2-container,
 .aui-button, a.aui-button, .aui-button:visited {
-    background: #1e1e1e;
-    border-color: #333;
+    background: #333333;
+    border-color: #1e1e1e;
     color: #ccd3d6;
 }
 .aui-select2-container.select2-container-multi .select2-choices {
-    background: #1e1e1e;
+    background: #333333;
     color: #ccd3d6;
 }
 form.aui .text, form.aui .password, form.aui .textarea, form.aui .select, form.aui .multi-select, form.aui .aui-select2-container .select2-choices,
 form.aui .aui-select2-container.users-autocomplete {
-    border-color: #333;
+    border-color: #1e1e1e;
 }
 .aui-dropdown2.aui-style-default {
-    background-color: #333;
-    border-color: #333;
+    background-color: #1e1e1e;
+    border-color: #1e1e1e;
 }
 .select2-container-multi .select2-choices .select2-search-field input.select2-active{
-    background: #1e1e1e!important;
+    background: #333333!important;
 }
