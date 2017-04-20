@@ -3,16 +3,16 @@
 ## Folder Structure
 
 * Master
-  * ## Telefon
+  * ## Telefon ✔
    * Telefon.css  
      Status:Done!
   * ## YouTrack
-   * YouTrack.css
-    * ToDo  
-    Befehlskonsole
+   * YouTrack.css  
+     ToDo  
+     Befehlskonsole
   * ## Zendesk
-   * Zendesk.css
-    * ToDo  
+   * Zendesk.css  
+     ToDo  
   * ## Wiki
-   * Wiki.css
-    * ToDo  
+   * Wiki.css  
+     ToDo  
