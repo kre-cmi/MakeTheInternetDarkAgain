@@ -4,22 +4,11 @@
 
 * Master
   * ## YouTrack
-        |File|Status|
-        |---|---:|
-        Agile-Board.css|x|
-        Dashboard.css|x|
-        Tickets.css|✔|
-        |
+   * ### YouTrack
+    * ToDo
   * ## Zendesk
-        |File|Status|
-        |---|---:|
-        Overview.css|x|
-        Tickets.css|x|
-        |
+   * ### Zendesk.css
+    * ToDo
   * ## Wiki
-        |File|Status|
-        |---|---:|
-        Site.css|x|
-        Worked.css|x|
-        |
-        
+   * ### Wiki.css
+    * ToDo
