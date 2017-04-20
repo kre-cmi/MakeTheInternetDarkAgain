@@ -10,6 +10,7 @@
    * YouTrack.css  
      ToDo  
      Befehlskonsole
+     Suggestionlist bei neuem Ticket
   * ## Zendesk
    * Zendesk.css  
      ToDo  
