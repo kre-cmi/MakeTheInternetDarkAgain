@@ -68,7 +68,7 @@ select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, 
 	border: 0;
 	border-radius: 0;
 }
-#tabs .tab .popover.bottom.add .popover-inner {
+#tabs .tab .popover.bottom.add .popover-inner, .workspace.search {
 	background-color: #333;
 	border-radius: 0;
 	border-color: #1e1e1e;
@@ -127,9 +127,10 @@ circle, path {
 .activities .comment_value {
 	color: #ccd3d6;
 }
-#tabs .tab.selected .tab-content-holder {
+#tabs .tab.selected .tab-content-holder, #tabs .tab.selected.search .tab-content-holder {
 	background-color: #333;
 	color: #ccd3d6;
+	border-bottom: 0;
 }
 .main_panes header .pane, .workspace header .pane {
 	padding: 5px 0;
@@ -164,7 +165,7 @@ circle, path {
 	background-color: #1e1e1e;
 	color: #ccd3d6;
 }
-.filter_tickets .is-viewed-by-others td.collision div {
+.filter_tickets .is-viewed-by-others td.collision div, #tabs .search.tab > .tab-content-holder .icon, #tabs .search.selected > .tab-content-holder .icon {
 	filter: invert(100%);
 	opacity: 1;
 }
