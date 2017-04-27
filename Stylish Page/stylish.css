@@ -16,7 +16,7 @@ button {
     border-radius: 4px;
 	color: #ccd3d6;
 }
-#installed {
+#stylish-manage>#installed {
 	margin-left: 400px;
 }
 #header {
@@ -44,15 +44,11 @@ input:focus, select:focus {
 }
 .CodeMirror {
 	border: 0;
-}
+}/*
 /* Let's get this party started */
 ::-webkit-scrollbar {
     width: 12px;
 	height: 10px;
-}
-.wiki-content table.tablesorter>thead>tr>th.tablesorter-headerSortUp, .wiki-content table.tablesorter>thead>tr:hover>th{
-	background-image: url();
-	background-color: rgb(38,38,38);
 }
 .tabs-container {
 	height: 450px;
