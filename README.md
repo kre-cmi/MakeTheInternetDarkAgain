@@ -3,6 +3,8 @@
 ## Folder Structure
 
 * Master
+  * ## Stylish
+   * Stylish.css
   * ## Telefon ✔
    * Telefon.css  
      Status:Done!
