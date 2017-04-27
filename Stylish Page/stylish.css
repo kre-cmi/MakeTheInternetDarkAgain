@@ -1,3 +1,4 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
 #stylish-edit, #stylish-manage {
 	background-color: #333;
 	color: #ccd3d6;
@@ -16,13 +17,19 @@ button {
     border-radius: 4px;
 	color: #ccd3d6;
 }
+#editor.tabSize, #options [type="number"] {
+	max-width: 8rem!important;
+    width: 4rem!important;
+}
 #stylish-manage>#installed {
-	margin-left: 400px;
+	margin-left: 35rem;
+}
+#sections {
+	margin-left: 20rem;
 }
 #header {
-	width: auto;
+	width: 35rem;
 	border-right: 0;
-	
 }
 button:hover {
 	background-color: rgb(38,38,38);
