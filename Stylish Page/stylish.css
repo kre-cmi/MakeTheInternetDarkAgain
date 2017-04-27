@@ -1,4 +1,4 @@
-#stylish-edit {
+#stylish-edit, #stylish-manage {
 	background-color: #333;
 	color: #ccd3d6;
 }
@@ -15,6 +15,9 @@ button {
     border: 1px solid transparent;
     border-radius: 4px;
 	color: #ccd3d6;
+}
+#installed {
+	margin-left: 400px;
 }
 #header {
 	width: auto;
