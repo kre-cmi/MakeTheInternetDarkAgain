@@ -1,4 +1,4 @@
-body {
+#stylish-edit {
 	background-color: #333;
 	color: #ccd3d6;
 }
@@ -15,6 +15,11 @@ button {
     border: 1px solid transparent;
     border-radius: 4px;
 	color: #ccd3d6;
+}
+#header {
+	width: auto;
+	border-right: 0;
+	
 }
 button:hover {
 	background-color: rgb(38,38,38);
@@ -45,6 +50,9 @@ input:focus, select:focus {
 .wiki-content table.tablesorter>thead>tr>th.tablesorter-headerSortUp, .wiki-content table.tablesorter>thead>tr:hover>th{
 	background-image: url();
 	background-color: rgb(38,38,38);
+}
+.tabs-container {
+	height: 450px;
 }
 
 /* Track */
