@@ -13,11 +13,9 @@
 .ember-view, body {
 	border-color: #1e1e1e;
 }
-.split_pane.ticket .pane.left {
-	width: 315px;
-}
 .ticket-sidebar .property_box {
 	padding: 0;
+    padding-left: 5px;
 }
 body {
 	background-color: #333;
@@ -55,7 +53,7 @@ select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, 
 .app-6536 .whole .card .counts li .ticket_status_label, .ticket_status_label.compact {
 	opacity: 1!important;
 }
-.event.is-new {
+.event.is-new , .ticket_summary .other-viewers{
 	background-color: #1e1e1e;
 	color: #fff;
 }
@@ -282,6 +280,7 @@ circle, path {
 .ticket_collision, ul.attachments li {
 	background-color: #333;
 	color: #fff;
+    padding: 0px;
 }
 ul.attachments li .attachment i {
 	filter: invert(100%);
