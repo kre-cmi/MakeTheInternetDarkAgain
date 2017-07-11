@@ -69,9 +69,6 @@ input {
 html {
     overflow: auto;
 }
-body {
-    position: absolute;
-}
 .comment-selected {
     background-color: #333;
 }
