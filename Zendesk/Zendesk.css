@@ -68,7 +68,7 @@ select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, 
 	border: 0;
 	border-radius: 0;
 }
-#tabs .tab .popover.bottom.add .popover-inner, .workspace.search {
+#tabs .tab .popover.bottom.add .popover-inner {
 	background-color: #333;
 	border-radius: 0;
 	border-color: #1e1e1e;
@@ -127,10 +127,9 @@ circle, path {
 .activities .comment_value {
 	color: #ccd3d6;
 }
-#tabs .tab.selected .tab-content-holder, #tabs .tab.selected.search .tab-content-holder {
+#tabs .tab.selected .tab-content-holder {
 	background-color: #333;
 	color: #ccd3d6;
-	border-bottom: 0;
 }
 .main_panes header .pane, .workspace header .pane {
 	padding: 5px 0;
@@ -165,7 +164,7 @@ circle, path {
 	background-color: #1e1e1e;
 	color: #ccd3d6;
 }
-.filter_tickets .is-viewed-by-others td.collision div, #tabs .search.tab > .tab-content-holder .icon, #tabs .search.selected > .tab-content-holder .icon {
+.filter_tickets .is-viewed-by-others td.collision div {
 	filter: invert(100%);
 	opacity: 1;
 }
@@ -331,4 +330,48 @@ footer .object_options .dropdown-toggle, .footer .object_options .dropdown-toggl
 }
 .mast.pane_header .round-avatar {
 	filter: invert(86%);
+}
+.workspace.search > .pane {
+	background: #333;
+}
+#tabs .tab.selected.search .tab-content-holder {
+	background: #333;
+	border-color: #333;
+}
+.query-box .query-container .clear-search {
+	background: rgb(38, 38, 38);
+	border-color: rgb(38, 38, 38);
+	color: white;
+}
+.query-box .query-container .advanced-search {
+	background: rgb(38, 38, 38);
+	border-color: rgb(38, 38, 38);
+	color: white;
+}
+.query-box .query-container .clear-search:hover {
+	color: white;
+}
+.query-box.should-show-query-builder .query-container .advanced-search{
+	background: rgb(38, 38, 38);
+	border-color: #03363d;
+}
+.query-box .query-container .query-field {
+	border-color: rgb(38, 38, 38);
+}
+.query-box .query-container .advanced-search .advanced-search-button:after {
+	filter: invert(100%);
+}
+.query-box.should-show-query-builder .query-builder {
+	background: #333;
+	border: none;
+}
+.query-box .query-builder:before {
+	background: #005580;
+	border: none;
+}
+.navigation-item {
+	color: #fff;
+}
+.navigation-item:hover {
+	color: #aaa
 }
