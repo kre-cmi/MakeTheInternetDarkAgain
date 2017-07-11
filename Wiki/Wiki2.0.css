@@ -1,0 +1,40 @@
+.MainStage_contentBody_2mx[style]{
+    background-color: #1e1e1e!important;
+}
+.ViewPagePanelWithStickyHeader_panelWithStickyHeader_1Vq > div[style]{
+    background-color: #1e1e1e!important;
+}
+.ViewPagePanelWithStickyHeader_panelWithStickyHeader_1Vq > div > div > div[style]{
+	background-color: #1e1e1e!important;
+}
+.ViewPagePanelWithStickyHeader_panelWithStickyHeader_1Vq > div > div > div > div[style]{
+	background-color: #333333!important;
+    color: #fff!important;
+}
+.gLYoj{
+   background-color: #333; 
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+}
+.tabs-container {
+    height: 450px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    /*-webkit-border-radius: 10px;
+    border-radius: 10px;*/
+    
+    background: rgb(86, 86, 86);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-corner {
+    background: #1e1e1e!important;
+}
