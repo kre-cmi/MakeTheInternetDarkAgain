@@ -1,22 +1,25 @@
 .MainStage_contentBody_2mx[style], .ViewPagePanelWithStickyHeader_panelWithStickyHeader_1Vq > div[style], .ViewPagePanelWithStickyHeader_panelWithStickyHeader_1Vq > div > div > div[style], .ViewPagePanelWithStickyHeader_panelWithStickyHeader_1Vq > div > div > div > div[style], #full-height-container{
-    background-color: #1e1e1e!important;
+    background-color: #212121 !important;
 }
 .confluence-information-macro-note, .ViewPageHeader_headerSticky_14K, .Breadcrumbs_ancestorsList_2Ma li a{
-    background-color: #333333!important;
+    background-color: #212121 !important;
     color: #fff!important;
 }
-.ViewPage_title_26o{
+.ViewPage_title_26o, .fkiETL{
     color: #fff!important;
 }
 table.confluenceTable th.confluenceTh.note, table.confluenceTable th.confluenceTh.note>p, table.confluenceTable td.confluenceTd.highlight.note, table.confluenceTable td.confluenceTd.highlight.note>p, table.confluenceTable th.confluenceTh.highlight-yellow, table.confluenceTable th.confluenceTh.highlight-yellow>p, table.confluenceTable td.confluenceTd.highlight-yellow, table.confluenceTable td.confluenceTd.highlight-yellow>p{
-    background-color: #333333!important;
+    background-color: #424242 !important;
     border: solid 1px #FFF59D;
 }
+.gKDQOa{
+ 	color: #1e1e1e;
+}
 .wiki-content table.tablesorter>thead>tr>th{
-    background: #333 center right no-repeat;
+    background: #424242  center right no-repeat;
 }
 .gLYoj{
-    background-color: #333; 
+    background-color: #424242; 
 }
 ::-webkit-scrollbar {
     width: 12px;
@@ -25,23 +28,22 @@ table.confluenceTable th.confluenceTh.note, table.confluenceTable th.confluenceT
 .tabs-container {
     height: 450px;
 }
+.PageTree_mode-drawer_f5a .PageTree_row_32D .PageTree_nameRow_1h5 a, .PageTree_mode-sidebar_1BZ .PageTree_row_32D .PageTree_nameRow_1h5 a, .wbzFB button, .wbzFB a{
+ 	color: #1976d2;   
+}
+.TSSGp{
+ 	background-color: #1976d2;
+    color: #333;
+}
 p, .confluenceTd,h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-content h4, .pagetitle, .steptitle, .substeptitle, .formtitle, table.confluenceTable td.confluenceTd.highlight, table.confluenceTable td.confluenceTd.highlight > p, table.confluenceTable th.confluenceTh, table.confluenceTable th.confluenceTh > p, .wiki-content .tablesorter-header-inner, table.admin th, .form-element-large, .form-element-small, #toolbar #format-dropdown .format-h1 a, #toolbar #format-dropdown .format-h2 a, #toolbar #format-dropdown .format-h3 a, #toolbar #format-dropdown .format-h4 a {
    color: #ccd3d6!important;
 }
+::-webkit-scrollbar {
+	width: 12px;
+}
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+	background: #333;
 }
-/* Handle */
-
 ::-webkit-scrollbar-thumb {
-    /*-webkit-border-radius: 10px;
-    border-radius: 10px;*/
-    
-    background: rgb(86, 86, 86);
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
-}
-::-webkit-scrollbar-corner {
-    background: #1e1e1e!important;
+	background: rgb(86, 86, 86);
 }
