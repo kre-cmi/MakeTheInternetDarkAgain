@@ -49,8 +49,7 @@ tbody {
 	height: 10px;
 }
 .wiki-content table.tablesorter>thead>tr>th.tablesorter-headerSortUp, .wiki-content table.tablesorter>thead>tr:hover>th{
-	background-image: url();
-	background-color: rgb(38,38,38);
+    background: rgb(38, 38, 38);
 }
 
 /* Track */

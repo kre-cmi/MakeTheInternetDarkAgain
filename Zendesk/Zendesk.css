@@ -378,3 +378,17 @@ footer .object_options .dropdown-toggle, .footer .object_options .dropdown-toggl
 .ticket_summary .popover-header {
 	background: #333;
 }
+
+.zendesk-editor--rich-text-comment pre,
+.markdown_formatting pre,
+.markdown_preview pre,
+.event .comment pre {
+	background-color: #1e1e1e;
+	border: 1px solid #333;
+	color: #60ff00;
+}
+.event .comment code {
+    background-color: #1e1e1e;
+    color: #60ff00;
+    border: none;
+}
