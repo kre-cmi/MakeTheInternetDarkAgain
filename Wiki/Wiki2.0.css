@@ -1,25 +1,25 @@
 .MainStage_contentBody_2mx[style], .ViewPagePanelWithStickyHeader_panelWithStickyHeader_1Vq > div[style], .ViewPagePanelWithStickyHeader_panelWithStickyHeader_1Vq > div > div > div[style], .ViewPagePanelWithStickyHeader_panelWithStickyHeader_1Vq > div > div > div > div[style], #full-height-container{
-    background-color: #212121 !important;
+    background-color: #303030 !important;
 }
-.confluence-information-macro-note, .ViewPageHeader_headerSticky_14K, .Breadcrumbs_ancestorsList_2Ma li a{
-    background-color: #212121 !important;
+.confluence-information-macro-note, .ViewPageHeader_headerSticky_14K, .Breadcrumbs_ancestorsList_2Ma li a, #rte-toolbar{
+    background-color: #303030 !important;
     color: #fff!important;
 }
-.ViewPage_title_26o, .fkiETL{
+.ViewPage_title_26o, .fkiETL, #format-dropdown-display, li[class="toolbar-item aui-button"] > a > span{
     color: #fff!important;
 }
 table.confluenceTable th.confluenceTh.note, table.confluenceTable th.confluenceTh.note>p, table.confluenceTable td.confluenceTd.highlight.note, table.confluenceTable td.confluenceTd.highlight.note>p, table.confluenceTable th.confluenceTh.highlight-yellow, table.confluenceTable th.confluenceTh.highlight-yellow>p, table.confluenceTable td.confluenceTd.highlight-yellow, table.confluenceTable td.confluenceTd.highlight-yellow>p{
-    background-color: #424242 !important;
+    background-color: #212121 !important;
     border: solid 1px #FFF59D;
 }
 .gKDQOa{
- 	color: #1e1e1e;
+ 	color: #303030;
 }
 .wiki-content table.tablesorter>thead>tr>th{
-    background: #424242  center right no-repeat;
+    background: #212121  center right no-repeat;
 }
-.gLYoj{
-    background-color: #424242; 
+.gLYoj, .iYJWvo{
+    background-color: #212121; 
 }
 ::-webkit-scrollbar {
     width: 12px;
@@ -29,13 +29,13 @@ table.confluenceTable th.confluenceTh.note, table.confluenceTable th.confluenceT
     height: 450px;
 }
 .PageTree_mode-drawer_f5a .PageTree_row_32D .PageTree_nameRow_1h5 a, .PageTree_mode-sidebar_1BZ .PageTree_row_32D .PageTree_nameRow_1h5 a, .wbzFB button, .wbzFB a{
- 	color: #1976d2;   
+ 	color: #000;   
 }
 .TSSGp{
  	background-color: #1976d2;
     color: #333;
 }
-p, .confluenceTd,h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-content h4, .pagetitle, .steptitle, .substeptitle, .formtitle, table.confluenceTable td.confluenceTd.highlight, table.confluenceTable td.confluenceTd.highlight > p, table.confluenceTable th.confluenceTh, table.confluenceTable th.confluenceTh > p, .wiki-content .tablesorter-header-inner, table.admin th, .form-element-large, .form-element-small, #toolbar #format-dropdown .format-h1 a, #toolbar #format-dropdown .format-h2 a, #toolbar #format-dropdown .format-h3 a, #toolbar #format-dropdown .format-h4 a {
+p, .confluenceTd,h1, h2, h3, h4, .wiki-content h1, .wiki-content h2, .wiki-content h3, .wiki-content h4, .pagetitle, .steptitle, .substeptitle, .formtitle, table.confluenceTable td.confluenceTd.highlight, table.confluenceTable td.confluenceTd.highlight > p, table.confluenceTable th.confluenceTh, table.confluenceTable th.confluenceTh > p, .wiki-content .tablesorter-header-inner, table.admin th, .form-element-large, .form-element-small, #toolbar #format-dropdown .format-h1 a, #toolbar #format-dropdown .format-h2 a, #toolbar #format-dropdown .format-h3 a, #toolbar #format-dropdown .format-h4 a, body {
    color: #ccd3d6!important;
 }
 ::-webkit-scrollbar {
