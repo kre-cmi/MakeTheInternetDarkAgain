@@ -1,13 +1,16 @@
-body {
+body, .fsi__visibility, .commandsDialog .help:before {
     background: #1e1e1e;
     color: #ccd3d6 !important;
 }
 a {
     color: #489dc7;
 }
-input {
+input, .commandsDialog .jt-input {
     color: #ccd3d6 !important;
     background: #1D1E1F;
+}
+.jt-dialog{
+	border-color: #333;   
 }
 .text-copier {
     position: absolute;
@@ -48,7 +51,7 @@ input {
 .search-panel__search-ico{
     text-shadow: none;
 }
-.search-panel__search-btn:hover{
+.search-panel__search-btn:hover, .jt-dialog-mask{
     background: #333;
 }
 .inputWrapper{
