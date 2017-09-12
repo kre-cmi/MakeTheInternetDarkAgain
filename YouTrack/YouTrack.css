@@ -10,7 +10,7 @@ input, .commandsDialog .jt-input {
     background: #1D1E1F;
 }
 .jt-dialog{
-	border-color: #333;   
+    border-color: #333;
 }
 .text-copier {
     position: absolute;
@@ -30,15 +30,15 @@ input, .commandsDialog .jt-input {
     color: #ccd3d6;
 }
 .search-panel__context-btn:hover{
-	background: linear-gradient(to bottom, #1e1e1e 0%,#1e1e1e 100%);
+    background: linear-gradient(to bottom, #1e1e1e 0%,#1e1e1e 100%);
 }
 .jt-panel-title{
-	background: linear-gradient(to top, #333, #333) !important;
-	color: #ccd3d6 !important;
+    background: linear-gradient(to top, #333, #333) !important;
+    color: #ccd3d6 !important;
 }
 .jt-dialog{
-	background: linear-gradient(to top, #1e1e1e, #1e1e1e) !important;
-	color: #ccd3d6 !important;
+    background: linear-gradient(to top, #1e1e1e, #1e1e1e) !important;
+    color: #ccd3d6 !important;
 }
 .newIssue{
     margin-top: 4em;
@@ -282,4 +282,8 @@ body .ring-link_pseudo {
 }
 .kwd {
     color: #007cff;
+}
+.change-comment .change-block,
+.change-comment .comment-change-title {
+    background-color: #333;
 }
