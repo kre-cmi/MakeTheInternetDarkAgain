@@ -7,17 +7,15 @@
 #main_navigation .toolbar_link {
 	color: #59BBE0;
 }
-#main_navigation .toolbar_link.active-product-link{
+#main_navigation .toolbar_link.active-product-link, .event .comment h3, .event .comment h4 {
 	color: #fff;
 }
 .ember-view, body {
 	border-color: #1e1e1e;
 }
-.split_pane.ticket .pane.left {
-	width: 315px;
-}
 .ticket-sidebar .property_box {
 	padding: 0;
+    padding-left: 5px;
 }
 body {
 	background-color: #333;
@@ -55,9 +53,12 @@ select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, 
 .app-6536 .whole .card .counts li .ticket_status_label, .ticket_status_label.compact {
 	opacity: 1!important;
 }
-.event.is-new {
+.event.is-new , .ticket_summary .other-viewers, .zd-menu-item.zd-item-focus, .zd-menu-item.zd-item-focus a{
 	background-color: #1e1e1e;
 	color: #fff;
+}
+.zd-menu-item.zd-item-focus a {
+ 	color: #fff!important;
 }
 .notification.v2 .btn:hover {
 	background-color: rgb(45, 45, 45);
@@ -87,14 +88,14 @@ select:focus, textarea:focus, input:not(.highlightable):focus, .editable:focus, 
 	background-color: #333;
 	box-shadow: 1px 1px 1px 1px;
 }
-.main_panes > .pane.left {
+.main_panes > .pane.left, .editable.textarea:not(.disabled):hover {
 	background-color: #333;
 	color: #ccd3d6;
 }
 .zd-combo-selectmenu .zd-highlight, .zd-selectmenu .zd-highlight, .zd-searchmenu .zd-highlight {
 	color: #ccd3d6 !important;
 }
-.notification.v2 {
+.notification.v2, .property_box {
 	color: #fff;
 	background-color: #1e1e1e;
 	border: 0;
@@ -282,6 +283,7 @@ circle, path {
 .ticket_collision, ul.attachments li {
 	background-color: #333;
 	color: #fff;
+    padding: 0px;
 }
 ul.attachments li .attachment i {
 	filter: invert(100%);
@@ -374,21 +376,4 @@ footer .object_options .dropdown-toggle, .footer .object_options .dropdown-toggl
 }
 .navigation-item:hover {
 	color: #aaa
-}
-.ticket_summary .popover-header {
-	background: #333;
-}
-
-.zendesk-editor--rich-text-comment pre,
-.markdown_formatting pre,
-.markdown_preview pre,
-.event .comment pre {
-	background-color: #1e1e1e;
-	border: 1px solid #333;
-	color: #60ff00;
-}
-.event .comment code {
-    background-color: #1e1e1e;
-    color: #60ff00;
-    border: none;
 }
