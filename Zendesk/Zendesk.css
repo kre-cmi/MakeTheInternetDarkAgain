@@ -4,6 +4,9 @@
 #main_navigation {
 	background: #333;
 }
+span[style] {
+ 	color:#fff!important;   
+}
 #main_navigation .toolbar_link {
 	color: #59BBE0;
 }
