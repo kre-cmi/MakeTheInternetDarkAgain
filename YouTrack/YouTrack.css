@@ -1,6 +1,9 @@
-body, .fsi__visibility, .commandsDialog .help:before {
+body, .fsi__visibility, .commandsDialog .help:before, .yt-agile-table__row__cell {
     background: #1e1e1e;
     color: #ccd3d6 !important;
+}
+.yt-agile-table__row__cell, .yt-agile-card {
+ 	border-color: #333;   
 }
 a {
     color: #489dc7;
@@ -9,7 +12,7 @@ input, .commandsDialog .jt-input {
     color: #ccd3d6 !important;
     background: #1D1E1F;
 }
-.jt-dialog{
+.jt-dialog {
     border-color: #333;
 }
 .text-copier {
@@ -22,42 +25,41 @@ input, .commandsDialog .jt-input {
     height: 16px;
     filter: invert(75%);
 }
-.wiki-tbl-th{
+.wiki-tbl-th {
     padding: 2px;
     font-weight: bold;
     border: 1px solid #898989;
     background-color: #333;
     color: #ccd3d6;
 }
-.search-panel__context-btn:hover{
-    background: linear-gradient(to bottom, #1e1e1e 0%,#1e1e1e 100%);
+.search-panel__context-btn:hover {
+    background: linear-gradient(to bottom, #1e1e1e 0%, #1e1e1e 100%);
 }
-.jt-panel-title{
+.jt-panel-title, .background__gradient, .ring-island, .yt-agile-card, .yt-agile-table__row_orphan_white {
     background: linear-gradient(to top, #333, #333) !important;
     color: #ccd3d6 !important;
 }
-.jt-dialog{
+.jt-dialog {
     background: linear-gradient(to top, #1e1e1e, #1e1e1e) !important;
     color: #ccd3d6 !important;
 }
-.newIssue{
+.newIssue {
     margin-top: 4em;
 }
 .search-panel__search-btn {
     background: #1e1e1e;
     border-left: 0;
 }
-
-.search-panel__search-ico{
+.search-panel__search-ico {
     text-shadow: none;
 }
-.search-panel__search-btn:hover, .jt-dialog-mask{
+.search-panel__search-btn:hover, .jt-dialog-mask {
     background: #333;
 }
-.inputWrapper{
+.inputWrapper {
     background-color: #333
 }
-.search-panel__context-btn_disabled, .search-panel__context-btn_disabled:hover{
+.search-panel__context-btn_disabled, .search-panel__context-btn_disabled:hover {
     color: #ccd3d6;
 }
 .attach-wrapper.add-comment__attachments.has-attachments {
@@ -118,9 +120,7 @@ html {
 a:visited {
     color: #489dc7;
 }
-.fsi-properties .fsi-property .attribute,
-.ring-menu__item__i,
-body .ring-link_pseudo {
+.fsi-properties .fsi-property .attribute, .ring-menu__item__i, body .ring-link_pseudo {
     color: #489dc7 !important;
 }
 .fsi__sidebar__bottom_sticky {
@@ -143,7 +143,7 @@ body .ring-link_pseudo {
 .jt-panel-active div, .ring-tabs__btn__counter, .search-panel__search-btn {
     color: #ccd3d6 !important;
 }
-.search-panel-input .jt-input, .selectProject input {
+.search-panel-input .jt-input, .selectProject input, .ring-query-assist__input.ring-query-assist__input {
     background: #252525 !important;
     color: #ccd3d6 !important;
 }
@@ -182,7 +182,7 @@ body .ring-link_pseudo {
 .issues-nav-info, .ring-footer {
     color: #ccd3d6;
 }
-.combobox,.combobox input, .jt-input[type=text], .jt-input[type=password] {
+.combobox, .combobox input, .jt-input[type=text], .jt-input[type=password] {
     background: #252525;
 }
 .ring-input, .jt-input, .ring-query-assist__letter {
@@ -265,12 +265,10 @@ body .ring-link_pseudo {
 .jt-input[type=text], .jt-input[type=password] {
     border-color: #333;
 }
-.search-center .panel,
-.selectProject {
+.search-center .panel, .selectProject {
     border-color: #252525 !important;
 }
-.selectProject .inputWrapper,
-.search-center .panel, .selectProject {
+.selectProject .inputWrapper, .search-center .panel, .selectProject {
     background: #252525;
     box-shadow: none;
 }
@@ -283,7 +281,6 @@ body .ring-link_pseudo {
 .kwd {
     color: #007cff;
 }
-.change-comment .change-block,
-.change-comment .comment-change-title {
+.change-comment .change-block, .change-comment .comment-change-title {
     background-color: #333;
 }
