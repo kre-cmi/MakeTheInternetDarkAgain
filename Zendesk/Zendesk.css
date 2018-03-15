@@ -1,7 +1,7 @@
 #tabs .tab:not(.add):not(.overflow-tab), #tabs .tab, .workspace.apps:not(.ticket_editor_app), .split_pane.collapsible .pane.left, .split_pane.dashboard > header .pane.left {
 	border-color: #333;
 }
-#main_navigation {
+#main_navigation, .app_view_wrapper {
 	background: #333;
 }
 span[style] {
@@ -366,7 +366,7 @@ footer .object_options .dropdown-toggle, .footer .object_options .dropdown-toggl
 .query-box .query-container .advanced-search .advanced-search-button:after {
 	filter: invert(100%);
 }
-.query-box.should-show-query-builder .query-builder {
+.query-box.should-show-query-builder .query-builder, .workspace.apps:not(.ticket_editor_app) .ember-view > .app_view_outer {
 	background: #333;
 	border: none;
 }
